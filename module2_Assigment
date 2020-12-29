@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <title> Web Course Assigment 2</title>
+        <meta name= "viewport" content="width= device-width, initial-scale=1">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="moduel2.css">
+        <style> 
+        * {
+            box-sizing: border-box;
+        }
+        h1{
+            font-weight:900;
+            font-family: 'Poppins',sans-serif;
+            text-align: center;
+            margin: 100px;
+        }
+        div{
+            background-color: gray;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto; 
+            border: 1px solid black;
+        }
+        
+        .sub1{
+            text-align:center;
+            padding: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            background-color: rgb(235, 103, 103);
+            float: right;
+            font-size: 125%;
+            width: 100px;
+            border: 1px solid black;
+            margin: 0px;
+        }
+        
+        .sub2{
+            text-align:center;
+            padding: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            background-color: brown;
+            float: right;
+            font-size: 125%;
+            width: 125px;
+            border: 1px solid black;
+            margin: 0px;
+        }
+        
+        .sub3{
+            text-align:center;
+            padding: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: bold;
+            background-color: rgb(252, 252, 112);
+            float: right;
+            font-size: 125%;
+            width: 100px;
+            border: 1px solid black;
+            margin: 0px;
+        }
+        
+        .content{
+            font-family: 'Poppins', sans-serif;
+            font-size: 100%;
+            overflow: auto;
+            background-color: gray;
+            height: 200px;
+            margin: 0px;
+        }
+        
+        section {
+            position: relative;
+            padding: 15px;
+            width: 100%;
+        }
+
+        p {
+            position: relative;
+            clear: right;
+        }
+
+        .row {
+               width: 90%;
+            }
+
+            @media(min-width:992px){
+                .column-lg-4{
+                    float:left;
+                    width: 33.33%;
+                }  
+            }
+
+
+            @media(min-width:768px) and (max-width:991px){
+                .colmn-md-6{
+                    float: left;
+                    width: 50%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+                .colmn-md-12{
+                    float: left;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+
+
+
+            @media(max-width:767px){
+
+                .colmn-sm-12 {
+                    float: left;
+                    width: 100%;
+                }
+            }
+            
+        </style>
+    </head>
+    <body> 
+        <h1> Our menu</h1>
+        <section class= "column-lg-4 colmn-md-6 colmn-sm-12">
+           <div class="container"> 
+                <p class="sub1"> Chicken</p>
+                <p class="content"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </section> 
+
+        <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+            <div class="container"> 
+                <p class="sub2"> Beef</p>
+                <p class="content"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </section>
+
+        <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+            <div class="container"> 
+                <p class="sub3"> Sushi</p>
+                <p class="content"> "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+        </section>
+
+    </body>
+
+</html>
